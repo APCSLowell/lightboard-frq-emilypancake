@@ -27,6 +27,7 @@ public class LightBoard
   public boolean evaluateLight(int row, int col)
   {
     /* to be implemented in part (b) */
+    int a = 0;
    for(int r = 0; r < lights.length; r++){
      if(lights[r][col]){
        a++;
