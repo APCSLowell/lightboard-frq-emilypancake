@@ -33,10 +33,12 @@ public class LightBoard
        a++;
      }
    }
-  if(lights[row][col] && !(a%2 == 0))
+  if(lights[row][col] && !(a%2 == 0)){
     return false;
-  if(!(lights[row][col]) && a % 3 == 0)
+  }
+  if(!(lights[row][col]) && a % 3 == 0){
     return true;
+  }
   return lights[row][col];
  
   }
